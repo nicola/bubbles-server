@@ -1,0 +1,25 @@
+{
+  "name": "bubbles-server",
+  "version": "0.1.0",
+  "description": "Server for bubbles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicola/bubbles-server.git"
+  },
+  "keywords": [
+    "linked",
+    "data",
+    "decentralized",
+    "ldp"
+  ],
+  "author": "Nicola Greco <me@nicola.io> (http://nicolagreco.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicola/bubbles-server/issues"
+  },
+  "homepage": "https://github.com/nicola/bubbles-server"
+}
