@@ -67,7 +67,7 @@ function bin () {
       flag: true,
       help: 'Print current ldnode version',
       callback: function () {
-        fs.readFile(path.resolve(__dirname, '../package.json'), 'utf-8',
+        fs.readFile(path.resolve(__dirname, './package.json'), 'utf-8',
           function (err, file) {
             if (err) {
               return 1
@@ -102,6 +102,9 @@ function bin () {
 
 if (require.main === module) {
   var argv = bin()
+  if (argv.version) {
+    return 0
+  }
   var server = createServer(argv)
   server.listen(argv.port, function () {
     console.log('Bubbles server started on port ' + argv.port)
