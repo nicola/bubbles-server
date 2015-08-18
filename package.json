@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/nicola/bubbles-server/issues"
   },
-  "homepage": "https://github.com/nicola/bubbles-server"
+  "homepage": "https://github.com/nicola/bubbles-server",
+  "dependencies": {
+    "express": "^4.13.3",
+    "ldnode": "^0.2.11",
+    "nomnom": "^1.8.1"
+  },
+  "bin": {
+    "bubbles-server": "node ./index.js"
+  }
 }
